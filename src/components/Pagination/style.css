@@ -1,0 +1,56 @@
+:root {
+    --brown: #8D6338;
+}
+
+.pagination {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.pagination span {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 2px;
+    background-color: white;
+    width: 5px;
+    height: 5px;
+    margin: 0 5px;
+}
+
+.pagination span:hover {
+    background-color: var(--brown);
+    color: white;
+}
+
+.pagination span.is-active {
+    background-color: var(--brown);
+    color: white;
+}
+
+.pagination .button-pre, .button-next {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+    padding: 12px;
+    border-radius: 2px;
+    background-color: white;
+    width: 5px;
+    height: 5px;
+    margin: 0 5px;
+}
+
+.pagination .button-pre:disabled, .button-next:disabled {
+    cursor: not-allowed;
+}
+
+.pagination .button-pre:hover, .button-next:hover {
+    background-color: var(--brown);
+    color: white;
+}

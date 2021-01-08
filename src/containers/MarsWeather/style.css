@@ -1,0 +1,7 @@
+.container-mars-weather  h1 {
+ text-align: left;
+}
+
+.mars-weather {
+    display: flex;
+}

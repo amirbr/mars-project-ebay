@@ -1,0 +1,45 @@
+:root {
+    --brownLight: #DED6C9;
+}
+
+.container-images-by-date h1 {
+    text-align: left;
+}
+
+.image-list {
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 20px;
+    margin-top: 30px;
+}
+.image-list img {
+    max-width: 100%;
+}
+
+.search-bar {
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar button {
+    display: flex;
+    align-items: center;
+    background-color: var(--brownLight);
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 28px;
+    padding-right: 13px;
+}
+
+.search-bar input {
+    height: 23px;
+    border: 1px solid #c1c1c1;
+    border-right: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-left: 10px;
+    padding-bottom: 2px;
+}
